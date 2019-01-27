@@ -29,19 +29,9 @@ def get_coco_dataset():
     """A dummy COCO dataset that includes only the 'classes' field."""
     ds = AttrDict()
     classes = [
-        '__background__', 'person', 'bicycle', 'car', 'motorcycle', 'airplane',
-        'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant',
-        'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse',
-        'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack',
-        'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis',
-        'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove',
-        'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass',
-        'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich',
-        'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake',
-        'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv',
-        'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave',
-        'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase',
-        'scissors', 'teddy bear', 'hair drier', 'toothbrush'
-    ]
+        '__background__', '24', '133',  '67',   '134',  '123',  '135',  '129',  '128',  '127',  '88',   '92',   '16',   '87',   '34',  '82',  '26',  '7',   '98',   '44',   '61',   '41',   '117',   '62',  '75',  '74',  '9',   '17',   '49',   '108',  '54',  '96',  '2',   '18',  '43',  '29',  '3',   '120',  '45',  '33',
+  '6',   '110',  '80',   '65',   '66',   '83',   '32',   '71',   '68',   '78',   '51',   '93',   '58', '25',  '104',  '106',  '21',  '12',  '14',  '79',  '77',  '31',
+  '91',  '4',   '132',  '89',  '8',   '20',   '73',   '38',   '37',   '70',   '95',   '35',   '52',   '48',   '105',
+  '57',   '53',   '19',   '23',   '112',  '55',   '63',   '64',   '30',   '28',   '13',   '56',   '69',   '131',  '94',   '119',  '42',   '15',   '86',   '39',   '118',  '72',  '5',   '124',  '115',  '10',   '81',   '90',  '47', '60', '116',  '76',   '121',  '122',  '22',   '11',   '113',  '46',   '36',   '99',   '107',  '97',   '114',  '27',   '85',   '100',   '109', '59', '50', '103', '111', '101']
     ds.classes = {i: name for i, name in enumerate(classes)}
     return ds
