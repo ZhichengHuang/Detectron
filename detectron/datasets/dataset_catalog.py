@@ -166,7 +166,7 @@ _DATASETS = {
         _IM_DIR:
             _DATA_DIR + '/VOC2007/JPEGImages',
         _ANN_FN:
-            _DATA_DIR + '/VOC2007/annotations/voc_2007_train.json',
+            _DATA_DIR + '/VOC2007/annotations/voc_2007_trainval.json',
         _DEVKIT_DIR:
             _DATA_DIR + '/VOC2007/VOCdevkit2007'
     },
