@@ -162,19 +162,11 @@ _DATASETS = {
         _ANN_FN:
             _DATA_DIR + '/coco/annotations/image_info_test-dev2015.json'
     },
-    'voc_2007_train': {
+    'voc_2007_trainval': {
         _IM_DIR:
             _DATA_DIR + '/VOC2007/JPEGImages',
         _ANN_FN:
             _DATA_DIR + '/VOC2007/annotations/voc_2007_train.json',
-        _DEVKIT_DIR:
-            _DATA_DIR + '/VOC2007/VOCdevkit2007'
-    },
-    'voc_2007_val': {
-        _IM_DIR:
-            _DATA_DIR + '/VOC2007/JPEGImages',
-        _ANN_FN:
-            _DATA_DIR + '/VOC2007/annotations/voc_2007_val.json',
         _DEVKIT_DIR:
             _DATA_DIR + '/VOC2007/VOCdevkit2007'
     },
